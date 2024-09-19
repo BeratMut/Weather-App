@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import axios from "axios"
-import Navbar from './navbar'
+import Navbar from './Navbar'
 import Content from './Content'
 import Days from './Days'
 
