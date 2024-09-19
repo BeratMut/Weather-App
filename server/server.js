@@ -6,7 +6,8 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 const corsOptions = {
-    origin: "https://weather-app-frontend-2ky8.onrender.com"
+    origin: "https://weather-app-frontend-2ky8.onrender.com",
+    methods: ['GET', 'POST']
 }
 
 app.use(cors(corsOptions));
