@@ -21,7 +21,7 @@ function App() {
   const currentDay = new Date().getDay();
 
   const fetchAPI = async () => {
-    const response = await axios.get("http://localhost:8080/api" + city);
+    const response = await axios.get("https://weather-app-backend-sfiu.onrender.com" + city);
     setTemp(response.data.temp);  
     setDay(response.data.time);
     setWind(response.data.wind);
