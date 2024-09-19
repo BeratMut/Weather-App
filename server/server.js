@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 const corsOptions = {
-    origin: ["http://localhost:5173"],
+    origin: ["https://weather-app-frontend-2ky8.onrender.com"],
 }
 
 app.use(cors(corsOptions));
